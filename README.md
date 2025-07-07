@@ -59,7 +59,7 @@ src/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/api-reservas-hotel.git
+git clone https://github.com/ximena2171020/api-reservas-hotel.git
 cd api-reservas-hotel
 ```
 
