@@ -69,17 +69,6 @@ cd api-reservas-hotel
 npm install
 ```
 
-3. Configura las variables de entorno:
-
-Crea un archivo `.env` en la raíz del proyecto con:
-
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_USERNAME=postgres
-DB_PASSWORD=tu_contraseña
-DB_DATABASE=reservas
-```
 
 ---
 
