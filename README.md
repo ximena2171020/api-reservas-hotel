@@ -60,7 +60,7 @@ src/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/api-reservas-hotel.git
+git clone https://github.com/ximena2171020/api-reservas-hotel.git
 cd api-reservas-hotel
 ```
 
@@ -70,17 +70,6 @@ cd api-reservas-hotel
 npm install
 ```
 
-3. Configura las variables de entorno:
-
-Crea un archivo `.env` en la raíz del proyecto con:
-
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_USERNAME=postgres
-DB_PASSWORD=tu_contraseña
-DB_DATABASE=reservas
-```
 
 ---
 
@@ -143,5 +132,17 @@ Se incluye una colección exportada (`postman_collection.json`) con pruebas para
 
 **Ximena Arango Benitez**  
 Estudiante de Análisis y Desarrollo de Software  
+
+---
+
+
+## 📝 Notas del Proyecto
+
+- Este sistema fue construido con una estructura limpia, separando responsabilidades por módulos.
+- Se aplicaron buenas prácticas de desarrollo backend como el uso de DTOs, decoradores, y servicios desacoplados.
+- Se utilizaron relaciones `OneToMany` y `ManyToOne` en TypeORM para reflejar correctamente las asociaciones entre entidades como cliente, reserva y habitación.
+- Swagger permite documentar automáticamente los endpoints, lo que facilita mucho las pruebas y la integración.
+- Es una base sólida para un proyecto más grande, como un sistema de reservas completo con autenticación, roles y dashboard administrativo.
+- Ideal para presentaciones académicas, pruebas técnicas o proyectos en entornos reales de desarrollo backend.
 
 ---
